@@ -17,9 +17,5 @@ git commit -m 'deploy'
 # 部署到 https://<username>.github.io/<repo>
 git push -f git@github.com:liusaisaia/vitepressBlog.git main:gh-pages
 
-# 提交所有代码到github
-cd ../../../
-git add .
-git cm -m 'update'
-git push
+cd -
 
