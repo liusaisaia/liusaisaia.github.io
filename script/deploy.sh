@@ -1,5 +1,6 @@
 # /bin/bash
 
+
 # 确保脚本抛出遇到的错误
 set -e
 
@@ -14,8 +15,8 @@ git init
 git add .
 git commit -m 'deploy'
 
-# 部署到 https://<username>.github.io/<repo>
-git push -f git@github.com:liusaisaia/vitepressBlog.git main:gh-pages
+# 部署到 https://<username>.github.io/<repo> 不成功
+git push -f git@github.com:liusaisaia/vitepressBlog.git master:gh-pages
 
 cd -
 
