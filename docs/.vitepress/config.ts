@@ -9,7 +9,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "鲸落",
   // description: "A VitePress Site",
-  base: '/vitepressBlog/',
+  base: '/docs/',
   themeConfig: {
     logo: '/logo.svg',
     siteTitle: '鲸落',
