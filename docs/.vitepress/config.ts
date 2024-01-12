@@ -1,8 +1,8 @@
 /*
- * @Description: 配置页面
+ * @Description: 配置页面测试
  * @Author: Liu SaiSai
  * @Date: 2023-07-31 11:39:17
- * @LastEditors: Liu SaiSai
+ * @LastEditors: Liu SaiSai 56034541+liusaisaia@users.noreply.github.com
  */
 import { defineConfig } from 'vitepress'
 
